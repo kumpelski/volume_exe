@@ -13,8 +13,10 @@ if __name__ == "__main__":
     set_volume(0.05)
 
 '''
+// to run script
 pip install pycaw comtypes
-pip install pyinstaller
 
+// to build .exe
+pip install pyinstaller
 pyinstaller --onefile main.py
 '''
